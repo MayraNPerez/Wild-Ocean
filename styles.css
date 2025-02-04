@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0a2a43;
+    color: white;
+}
+.intro {
+    position: relative;
+    height: 100vh;
+    background: url(assets/intro-peces.jpg) no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    color:aliceblue;
+}
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navbar a {
+    color: aliceblue;
+    text-decoration: none;
+}
+.contenido h1{
+    font-size: 8em;
+    display: flex;
+    justify-content: center;
+}
+.descripcion {
+    height: 50vh;
+    width: 60%;
+    margin: 40px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.fotos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.img-container {
+    background: rgba(0, 51, 102, 0.7);
+    padding: 10px;
+    border-radius: 15px;
+}
+.img-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #062135;
+}
+.intro-n {
+    position: relative;
+    height: 100vh;
+    background: url(assets/intro-2.jpg) no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    color: white;
+}
+
+.historia, .trabajo, .exploracion, .clientes {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+.img-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: auto;
+}
+.img-grid img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+    width: 350px;
+}
+.intro-c {
+    position: relative;
+    height: 100vh;
+    background: url(assets/intro-contacto.jpg) no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    color: white;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    width: 80%;
+    margin: 40px auto;
+    align-items: center;
+}
+.contacto-info {
+    text-align: left;
+    font-size: 18px;
+}
+.formulario {
+    background: rgba(0, 51, 102, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+.formulario label {
+    margin-top: 10px;
+}
+.formulario input, .formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.formulario button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
